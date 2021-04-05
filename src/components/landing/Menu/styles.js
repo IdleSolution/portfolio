@@ -54,6 +54,7 @@ export const HamburgerContainer = styled.div`
     transition: transform .2s ease-in-out;
     z-index: 2;
 
+
     ${props => !props.open && `
 
         @media(min-width: 1000px) {
@@ -73,6 +74,8 @@ export const HamburgerContainer = styled.div`
 
     @media(max-width: 1000px) {
         width: 3.5rem;
+        position: absolute;
+        top: 5rem;
     }
 
 
@@ -106,8 +109,6 @@ export const Hamburger = styled.div`
 
     @media(max-width: 1000px) {
         mix-blend-mode: difference;
-        position: absolute;
-        top: 5rem;
         width: 3.5rem;
         background-color: rgb(249, 138, 123);
 
