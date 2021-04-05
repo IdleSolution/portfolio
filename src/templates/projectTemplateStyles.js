@@ -85,6 +85,7 @@ export const Description = styled.div`
 
     @media(max-width: 1000px) {
         width: 100%;
+        margin-right: 0;
     }
 `
 
