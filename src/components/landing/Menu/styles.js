@@ -13,7 +13,7 @@ export const Container = styled.div`
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    z-index: 0;
+    z-index: 9999999999999999999999999999;
     padding: 1rem 0;
 
     @media(max-width: 1000px) {
@@ -21,6 +21,7 @@ export const Container = styled.div`
             background-color: transparent;
             box-shadow: none;
             flex-flow: column;
+            z-index: 0;
         `}
     }
 `
