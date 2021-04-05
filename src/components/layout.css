@@ -595,6 +595,12 @@ pre tt:after {
   content: "";
 }
 
+@media(min-width: 2000px) {
+  html {
+    font-size: 25px;
+  }
+}
+
 @media(max-width: 1600px) {
   html {
     font-size: 15px;
@@ -626,14 +632,3 @@ pre tt:after {
   }
 }
 
-/* @media(max-width: 560px) {
-  html {
-    font-size: 9px;
-  }
-}
-
-@media(max-width: 400px) {
-  html {
-    font-size: 8px;
-  }
-} */

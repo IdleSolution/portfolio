@@ -47,6 +47,10 @@ export const Details = styled.div`
       mix-blend-mode: difference;
       font-size: 3.5rem;
     }
+    @media(min-width: 2000px) {
+      mix-blend-mode: difference;
+
+    }
 
   }
   h2 {
@@ -58,6 +62,10 @@ export const Details = styled.div`
       mix-blend-mode: difference;
       
     }
+    @media(min-width: 2000px) {
+      mix-blend-mode: difference;
+
+    }
   }
   h4 {
     font-size: 1.5rem;
@@ -65,6 +73,10 @@ export const Details = styled.div`
     color: #fff;
 
 
+    @media(min-width: 2000px) {
+      mix-blend-mode: difference;
+
+    }
     @media(max-width: 1000px) {
       mix-blend-mode: difference;
     }
