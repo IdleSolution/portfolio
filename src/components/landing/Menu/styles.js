@@ -52,7 +52,7 @@ export const HamburgerContainer = styled.div`
     align-items: center;
     justify-content: center;
     transition: transform .2s ease-in-out;
-
+    z-index: 99999999999999999999999999999;
 
     ${props => !props.open && `
 
