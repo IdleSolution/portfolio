@@ -1,21 +1,21 @@
 import React from 'react'
 import { SkillsWrapper, Wrapper, Thumbnail, Details, Container, Technologies, Technology, TechnologyList, Education, Single, Bullet } from './styles'
 import dev from '../../../assets/illustrations/skills.svg';
-import reactIcon from '../../../assets/Technologies/React.svg';
-import cSharpIcon from '../../../assets/Technologies/c#.svg';
-import nodeIcon from '../../../assets/Technologies/Nodejs.svg';
-import typescriptIcon from '../../../assets/Technologies/Typescript.svg';
-import aspIcon from '../../../assets/Technologies/ASP.NET Core.svg';
-import gitIcon from '../../../assets/Technologies/git.svg';
-import jsIcon from '../../../assets/Technologies/js.svg';
-import cssIcon from '../../../assets/Technologies/css.svg';
-import sassIcon from '../../../assets/Technologies/sass.svg';
-import htmlIcon from '../../../assets/Technologies/html.svg';
-import postgresIcon from '../../../assets/Technologies/postgres.svg';
-import msSQLIcon from '../../../assets/Technologies/mssql.svg';
-import gatsbyIcon from '../../../assets/Technologies/gatsby.svg';
-import reduxIcon from '../../../assets/Technologies/redux.svg';
-import mobxIcon from '../../../assets/Technologies/mobx.svg';
+import reactIcon from '../../../assets/technologies/React.svg';
+import cSharpIcon from '../../../assets/technologies/c#.svg';
+import nodeIcon from '../../../assets/technologies/Nodejs.svg';
+import typescriptIcon from '../../../assets/technologies/Typescript.svg';
+import aspIcon from '../../../assets/technologies/ASP.NET Core.svg';
+import gitIcon from '../../../assets/technologies/git.svg';
+import jsIcon from '../../../assets/technologies/js.svg';
+import cssIcon from '../../../assets/technologies/css.svg';
+import sassIcon from '../../../assets/technologies/sass.svg';
+import htmlIcon from '../../../assets/technologies/html.svg';
+import postgresIcon from '../../../assets/technologies/postgres.svg';
+import msSQLIcon from '../../../assets/technologies/mssql.svg';
+import gatsbyIcon from '../../../assets/technologies/gatsby.svg';
+import reduxIcon from '../../../assets/technologies/redux.svg';
+import mobxIcon from '../../../assets/technologies/mobx.svg';
 import { Footer } from '../../common/Footer';
 
 
