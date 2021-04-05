@@ -102,6 +102,10 @@ export const Technology = styled.span`
   p {
     margin-bottom: 0;
     width: 8.5rem;
+
+    @media(max-width: 600px) {
+      width: 10rem;
+    }
   }
 `
 

@@ -13,7 +13,7 @@ export const Container = styled.div`
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    z-index: 99999999999999999;
+    z-index: 0;
     padding: 1rem 0;
 
     @media(max-width: 1000px) {

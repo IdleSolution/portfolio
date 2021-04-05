@@ -20,6 +20,7 @@ export const Container = styled.div`
     animation-duration: 2s;
 
 
+
     ${props => props.loadingPage && `
 
     `}
